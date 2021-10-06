@@ -1,9 +1,9 @@
 /** @jsxImportSource @emotion/react */
 import Link from "next/link";
 import Image from "next/image";
-import { updateCart } from "../../utils/cartUtils";
+import { updateCart } from "../utils/cartUtils";
 import { useState } from "react";
-import { PropLanding } from "../../utils/types";
+import { PropLanding } from "../utils/types";
 import { css } from "@emotion/react";
 
 export default function LandingProd({ product, localCart, setLocalCart, setIsVisible, button }: PropLanding) {

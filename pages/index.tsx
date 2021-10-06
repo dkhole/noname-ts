@@ -3,11 +3,11 @@ import React, { useState, useEffect } from "react";
 import { css } from "@emotion/react";
 import { initialiseLocal } from "../utils/cartUtils";
 import { client } from "../utils/shopify";
-import Nav from "./components/Nav";
-import Landing from "./components/Landing";
-import LandingProd from "./components/LandingProd";
+import Nav from "../components/Nav";
+import Landing from "../components/Landing";
+import LandingProd from "../components/LandingProd";
 import { ShopifyProducts, CartItem } from "../utils/types";
-import PreviewCart from "./components/PreviewCart";
+import PreviewCart from "../components/PreviewCart";
 
 export default function Home({ products }: ShopifyProducts) {
 	const [localCart, setLocalCart] = useState<CartItem[]>([]);
