@@ -1,4 +1,4 @@
-## Ecommerce
+## NoName Dog Food
 An online store that sells dog food and subscriptions.
 
 ## Screenshots
